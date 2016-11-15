@@ -4,7 +4,7 @@
     <!-- mini logo for sidebar mini 50x50 pixels -->
     <span class="logo-mini"><b>A</b>LT</span>
     <!-- logo for regular state and mobile devices -->
-    <span class="logo-lg"><b>Admin</b>LTE</span>
+    <span class="logo-lg"><b>Elemen</b>Admin</span>
   </a>
   <!-- Header Navbar: style can be found in header.less -->
   <nav class="navbar navbar-static-top">
@@ -251,7 +251,7 @@
                 <a href="#" class="btn btn-default btn-flat">Profile</a>
               </div>
               <div class="pull-right">
-                <?php echo anchor("Admin_controller/logout", "Keluar", "class='btn btn-default btn-flat'");?>                
+                <?php echo anchor("Admin_controller/logout", "Keluar", "class='btn btn-default btn-flat'");?>
               </div>
             </li>
           </ul>

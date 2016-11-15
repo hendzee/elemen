@@ -53,6 +53,10 @@ class Admin_model extends CI_Model {
 				$this->load->view("list_admin", $data);
 				break;
 
+			case "add_service":
+				$this->load->view("add_service");
+				break;
+
 			default:
 				$this->load->view("dashboard");
 				break;

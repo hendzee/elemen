@@ -97,6 +97,24 @@
     });
   });
 
+  // to add service
+  $(document).ready(function(){
+    $("#add_service").click(function(e){
+      e.preventDefault();
+
+      $.ajax({
+        type:"POST",
+        url: "<?=base_url()?>index.php/Admin_controller/get_content/add_service",
+        dataType:"text",
+
+        success:function(response){
+          $(".content-wrapper").html(response);                    
+        }
+      });
+    });
+  });
+
+
   function table_paging(){
     $("#example1").DataTable();
     $('#example2').DataTable({
@@ -204,7 +222,7 @@
 
   function list_delete_admin(num){
     var id_data = num;
-    
+
     $.ajax({
       type:"POST",
       url: "<?=base_url()?>index.php/Admin_controller/delete_admin/" + id_data,
