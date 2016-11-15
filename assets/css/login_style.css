@@ -39,10 +39,7 @@ body{
 }
 .message.warning  {
 	background: rgba(255, 255, 255, 0.33);
-	-moz-box-shadow: 0 0 0 3px rgba(56, 41, 32, 0.25);
-    -webkit-box-shadow: 0 0 0 3px rgba(56, 41, 32, 0.25);
-    box-shadow: 0 0 0 3px rgba(56, 41, 32, 0.25);
-     margin:9% auto 0;
+ 	margin:9% auto 0;
 	width: 26%;
 }
 .login-head {
@@ -59,7 +56,7 @@ body{
 form {
 	padding: 3em 2em;
 	background: #F2F2F2;
-	
+
 }
 form li{
 	border: 2px ridge rgba(187, 185, 189, 0.11);
@@ -82,7 +79,7 @@ form li{
 }
 .user{
 	background: url(../images/icons.png) no-repeat 7px 1px;
-	
+
 }
 .lock{
 	background: url(../images/icons.png) no-repeat -22px 1px;
@@ -100,7 +97,7 @@ input[type="text"], input[type="password"] {
 }
 input[type="text"]:hover, input[type="password"]:hover{
 	color:#9E61A3;
-	
+
 }
 .submit h4 a{
 	float:left;
@@ -168,8 +165,7 @@ input[type="submit"]:hover {
 .footer p a:hover{
 	color:#fff
 }
-.message {
-	box-shadow: 0 0 0 1px rgba(0,0,0,0.2) inset, 0 1px 0 rgba(255,255,255,0.1) inset, 0 1px 2px rgba(0,0,0,0.4);
+.message {	
 	position: relative;
 }
 .warning {
@@ -308,5 +304,5 @@ input[type="submit"]:hover {
 	left: 22%;
 	bottom: 59px;
 	}
-	
+
 }
